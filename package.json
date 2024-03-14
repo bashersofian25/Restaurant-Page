@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --watch"
+    "start": "webpack serve --watch",
+    "updatelive": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "Basheer AlHalabi",
   "license": "ISC",
